@@ -87,4 +87,82 @@ main .promo .p2 {
   background-position: center;
 }
 
- 
+.menu {
+  display: block;
+}
+.menu > .menu-list-horiz {
+  list-style: none;  
+  width:100%;
+  text-align: center;
+  overflow: hidden;
+  
+}
+
+
+.menu > .menu-list-horiz:after {
+  display: block;
+  content: ("");
+  clear:both;
+}
+.menu > .menu-list-horiz > li {
+  float:left;
+  margin-right: 20px;
+}
+.menu > .menu-list-horiz > li:last-child {
+  margin-right: 0;
+}
+.menu > .menu-list-horiz > li > a {
+  
+  text-decoration: none;
+  display: block;
+}
+
+
+nav {
+  display: block;
+  margin: 20px 0;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+ul {
+  list-style: none;
+  margin: 0 auto;
+  width: 655px;
+  padding-left: 0;
+  text-align: center;
+  overflow: hidden;
+}
+li {
+  float: left;
+  width: 130px;
+  margin-right: 45px;
+}
+li:last-child {
+  margin-right: 0;
+}
+a {
+  text-decoration: none;
+  color: #4f4c45;
+  display: block;
+  font-family: 'Arimo', sans-serif; /*скачать шрифт можно с сайта https://www.google.com/fonts/*/
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 20px 0;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+}
+.one {
+  background: url(https://html5book.ru/wp-content/uploads/2015/01/border-orange.png) repeat-x;
+}
+.two {
+  background: url(https://html5book.ru/wp-content/uploads/2015/01/borger-grey.png) repeat-x;
+}
+.three {
+  background: url(https://html5book.ru/wp-content/uploads/2015/01/border-sea.png) repeat-x;
+}
+.four {
+  background: url(https://html5book.ru/wp-content/uploads/2015/01/border-blue.png) repeat-x;
+}
+a:hover {
+  background-position: 200px 0;
+  color: #95948F;
+}
