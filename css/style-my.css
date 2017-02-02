@@ -3,7 +3,7 @@ header .greeting {
   background-color: #fff;
 }
 header .navigation {
-  background-color:  rgba(56, 58, 70, 1);
+  background-color:  rgba(255, 255, 255, 0.4);
 }
 /*31.01 00:00*/
 .gr-logo {
@@ -37,14 +37,20 @@ header .navigation {
   width: auto;
 }
 /*31.01 01:16*/
-.nav-list {
-  list-style: none;
+.main-menu {
+  list-style:none;
+  list-style-type:none;
+
+
 }
 
 /*31.01 01:59*/
 /* ul {
   overflow: hidden;
 } */
+.menu-item {
+  margin:0 50px;
+}
 /*31.01 01:34*/
 .menu-item > a  {    
   display:block;
@@ -52,10 +58,10 @@ header .navigation {
   color:#f4f4f5;
 }
 /**/
-.menu-link div {
+/* .menu-link div {
   padding:10px;
-  margin:5px;
-}
+   .margin:5px;
+} */
 
 
 /*31.01 01:51*/
@@ -68,7 +74,6 @@ main .promo .p2 {
   content:("");
   background-color:rgba(200,240,80,0.5); /*#aadd23 */
 }
-
 /*31.01 03:22*/
 .grey-transparent-back {
   background-color: rgba(119,136,153,0.5);
@@ -81,3 +86,5 @@ main .promo .p2 {
   background-repeat:no-repeat;
   background-position: center;
 }
+
+ 
