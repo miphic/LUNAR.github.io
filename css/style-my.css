@@ -3,35 +3,22 @@ header .greeting {
   background-color: #fff;
 }
 header .navigation {
-  background-color:  rgba(255, 255, 255, 0.4);
+  background-color:#383a46;
 }
 /*31.01 00:00*/
 .gr-logo {
-  /*to delete*/
-  background-color: #311;
+  background-color: #ffffff;
+  background-image: url("\\img\\logo2.png");
+  background-repeat: no-repeat;
+  width: 380px;
+  height: 120px;
 }
-/*31.01 00:15*/
-.gr-logo {
-  color: white;
-}
-/*30.01 23:55*/
-/* .gr-contact-info {
-  float: right;
-  margin-right: 0;
-} */
-/* .gr-contact-info p {
-  color:white;
-} */
-/*30.01 23:59*/
+
 .gr-contact-info {
   /*to delete*/
   background-color: #452;
 }
-.zeroz {
-  /*content: "";*/
-  /*to delete*/
-  background-color: pink;
-}
+
 /*31.01 02:26 ---- 15 минут поспал --- встал*/
 .menu-item {
   width: auto;
@@ -55,7 +42,7 @@ header .navigation {
 .menu-item > a  {    
   display:block;
   float:left;
-  color:#f4f4f5;
+  /*color:#f4f4f5;*/
 }
 /**/
 /* .menu-link div {
@@ -115,6 +102,7 @@ main .promo .p2 {
   
   text-decoration: none;
   display: block;
+  color:#f4f4f5;
 }
 
 
