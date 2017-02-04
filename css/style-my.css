@@ -5,21 +5,40 @@ header .greeting {
 header .navigation {
   background-color:#383a46;
 }
-/*31.01 00:00*/
+
 .gr-logo {
   background-color: #ffffff;
   background-image: url("\\img\\logo2.png");
   background-repeat: no-repeat;
-  width: 380px;
-  height: 120px;
+  background-position: center;
+  /*width: 380px;*/
+  /*height: 120px;*/
+  height: 86px;
+  width: auto;
+  background-size: ;
 }
 
 .gr-contact-info {
-  /*to delete*/
-  background-color: #452;
+  text-align:right;
+  background-color: inherit;
 }
 
-/*31.01 02:26 ---- 15 минут поспал --- встал*/
+.fr {
+  display: block;
+  float:right;
+}
+.gr-contact-info  .row:first-of-type {
+  margin-top:20px;
+}
+.gr-contact-info  .row   div {
+  text-align: inherit;  
+}
+.contact-text,
+ .contact-tel {
+  vertical-align: auto;
+  height: 20px;
+} 
+
 .menu-item {
   width: auto;
 }
@@ -27,8 +46,6 @@ header .navigation {
 .main-menu {
   list-style:none;
   list-style-type:none;
-
-
 }
 
 /*31.01 01:59*/
