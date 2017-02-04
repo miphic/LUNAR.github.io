@@ -5,8 +5,8 @@ header .greeting {
 header .navigation {
   background-color:#383a46;
 }
-
-.gr-logo {
+/* отключен 04.02 16:10*/
+/* .gr-logo {
   background-color: #ffffff;
   background-image: url("\\img\\logo2.png");
   background-repeat: no-repeat;
@@ -14,7 +14,71 @@ header .navigation {
   height: 86px;
   width: auto;
   background-size: ;
+} */
+.logo {
+  
 }
+.logo img {
+  display:block;
+  height: 86px;
+  /*padding: 0 10px 20px 30px;*/
+  /*padding-top: 0;*/
+  /*border: 1px;*/
+  /*border-radius: 5px;*/
+  /*b-r border-right: 5px;*/
+  /*d-n display: none;*/
+  /*br1-s-#dbcbdc                border: 1px solid  #bdcbdc;*/
+  /*p-10                         padding: -10px;*/
+}
+/***************************************************************/
+/* BURGER ******************************************************/
+/***************************************************************/
+
+.burger {
+  /*float: right;*/
+  border: 2px solid #21bdc7;
+  width: 40px;
+  height: 40px;
+  margin: 15px 0;
+  padding: 7px 8px;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+.burger_stripe {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #21bdc7;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+.burger_stripe:before, .burger_stripe:after {
+  position: relative;
+  display: block;
+  height: 2px;
+  background: #21bdc7;
+  top: 10px;
+  left: 0;
+  border-radius: 5px;
+  content: '';
+  transition: 0.2s;
+}
+.burger_stripe:after {
+  top: 18px;
+}
+.burger:hover {
+  border-color: #14dde8;
+  transition: 0.5s;
+}
+.burger:hover .burger_stripe, .burger:hover .burger_stripe:after, .burger:hover .burger_stripe:before {
+  background: #14dde8;
+  transition: 0.5s;
+}
+/***************************************************************/
+/***************************************************************/
+/***************************************************************/
+
 
 .gr-contact-info {
   text-align:right;
