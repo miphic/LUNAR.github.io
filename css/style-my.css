@@ -46,19 +46,54 @@ header .navigation {
   list-style-type:none;
 }
 
+.cont-nav {
+  height: 65px;
+}
+.main-menu {
+  display: block;
+  margin: 20px 0;
+  /* box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); */
+}
+.menu-list {
+  list-style: none;
+  /*margin: 0 auto;*/
+  /*width: 655px;*/
+  padding-left: 0;
+  text-align: center;
+  overflow: hidden;
+}
+.menu-item {
+  float: left;
+  /*width: 130px;*/
+  /*margin-right: 45px;*/
+  margin:0 25px;
+}
+.menu-item:last-child {
+  margin-right: 0;
+}
+
+.menu-item > .menu-link {
+  text-decoration: none;
+  color: #f4f4f5;
+  display: block;
+  /*font-family: 'Arimo', sans-serif; скачать шрифт можно с сайта https://www.google.com/fonts/*/
+  /*text-transform: uppercase;*/
+  /*letter-spacing: 2px;*/
+  /*padding: 20px 0;*/
+  /*font-weight: bold;*/
+  /*transition: all 0.5s ease-in-out;*/
+}
 /*31.01 01:59*/
 /* ul {
   overflow: hidden;
 } */
-.menu-item {
-  margin:0 50px;
-}
+
 /*31.01 01:34*/
-.menu-item > a  {    
+/* .menu-item > a  {    
   display:block;
-  float:left;
-  /*color:#f4f4f5;*/
-}
+  float:let;
+  color:#f4f4f5;
+} */
 /**/
 /* .menu-link div {
   padding:10px;
@@ -76,6 +111,9 @@ main .promo .p2 {
   content:("");
   background-color:rgba(200,240,80,0.5); /*#aadd23 */
 }
+main .promo h1, main .promo h2 {
+  text-align: center;
+}
 /*31.01 03:22*/
 .grey-transparent-back {
   background-color: rgba(119,136,153,0.5);
@@ -87,6 +125,7 @@ main .promo .p2 {
   background-image: url("\\img\\main1.jpg");
   background-repeat:no-repeat;
   background-position: center;
+  height:610px;
 }
 
 .menu {
@@ -121,38 +160,6 @@ main .promo .p2 {
 }
 
 
-nav {
-  display: block;
-  margin: 20px 0;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-}
-ul {
-  list-style: none;
-  /*margin: 0 auto;*/
-  /*width: 655px;*/
-  padding-left: 0;
-  text-align: center;
-  overflow: hidden;
-}
-li {
-  float: left;
-  /*width: 130px;*/
-  /*margin-right: 45px;*/
-}
-li:last-child {
-  margin-right: 0;
-}
-a {
-  text-decoration: none;
-  /*color: #4f4c45;*/
-  display: block;
-  /*font-family: 'Arimo', sans-serif; скачать шрифт можно с сайта https://www.google.com/fonts/*/
-  /*text-transform: uppercase;*/
-  /*letter-spacing: 2px;*/
-  /*padding: 20px 0;*/
-  /*font-weight: bold;*/
-  /*transition: all 0.5s ease-in-out;*/
-}
 .one {
   background: url(https://html5book.ru/wp-content/uploads/2015/01/border-orange.png) repeat-x;
 }
